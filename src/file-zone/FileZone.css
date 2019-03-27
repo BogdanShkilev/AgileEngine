@@ -4,12 +4,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;    
 }
-
+#file-zone iframe {
+    flex-grow: 3;
+    margin: 10px 0 10px 10px;
+}
+#file-zone .synonyms {
+    flex-grow: 1;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #e4dede;
+    padding: 10px;
+}
 #file {
-    width: 600px;
     flex-grow: 1;
     background-color: #fff;
     border: 1px solid #e4dede;
+    padding: 10px;
 }
